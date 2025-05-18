@@ -2,7 +2,9 @@
   "name": "@react-monorepo/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "serve:backend": "node apps/backend/src/server.js"
+  },
   "private": true,
   "dependencies": {
     "react": "19.0.0",
